@@ -9,26 +9,24 @@ export default function DialogBox({ user, collapsed }) {
           {user?.image}
         </div>
       </div>
-      <div className={classNames("transition-all ease-in-out duration-300",
-        {
-          "max-w-24":collapsed,
-          "max-w-64":!collapsed,
-        }
-      )}>
+      <div className={classNames("transition-all ease-in-out duration-300", {
+          "max-w-24": collapsed,
+          "max-w-64": !collapsed,
+        })}>
         <div
           className={classNames("text-nowrap px-2 font-medium text-sm text-white transition-opacity duration-300 ease-in-out", {
-            "opacity-0":collapsed,
-            "opacity-100":!collapsed,
-            "w-0":collapsed,
-            "px-0":collapsed,
-            "invisible":collapsed,
+            "opacity-0": collapsed,
+            "opacity-100": !collapsed,
+            "w-0": collapsed,
+            "px-0": collapsed,
+            "invisible": collapsed,
           })}
         >
           {user?.name}
         </div>
 
         <div
-          className={classNames("", {
+          className={classNames("transition-all duration-300 ease-in-out", {
             "opacity-0 max-w-0": collapsed,
             "opacity-100 max-w-64": !collapsed,
           })}
