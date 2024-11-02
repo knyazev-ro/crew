@@ -11,7 +11,7 @@ export default function DialogBox({ user, collapsed }) {
       </div>
       <div className={classNames("transition-all ease-in-out duration-300", {
           "max-w-24": collapsed,
-          "max-w-64": !collapsed,
+          "max-w-80": !collapsed,
         })}>
         <div
           className={classNames("text-nowrap px-2 font-medium text-sm text-white transition-opacity duration-300 ease-in-out", {
@@ -28,7 +28,7 @@ export default function DialogBox({ user, collapsed }) {
         <div
           className={classNames("transition-all duration-300 ease-in-out", {
             "opacity-0 max-w-0": collapsed,
-            "opacity-100 max-w-64": !collapsed,
+            "opacity-100 max-w-80": !collapsed,
           })}
         >
           <div className="px-2 truncate text-nowrap font-semibold text-sm bg-clip-text text-transparent bg-gradient-to-br from-gray-400 to-gray-200">

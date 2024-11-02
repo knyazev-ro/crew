@@ -28,8 +28,8 @@ export default function ({ messages }) {
   ];
 
   return (
-    <>
-      <div className="flex">
+      <div>
+        <div className="flex">
       <GroupList groups={groups} />
          <DialogeList messages={messages} />
         {/* <div className="flex">
@@ -37,6 +37,6 @@ export default function ({ messages }) {
          
         </div> */}
       </div>
-    </>
+      </div>
   );
 }

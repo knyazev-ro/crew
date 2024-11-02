@@ -5,7 +5,7 @@ export default function MessagePlace(){
 
 
     return(
-        <div className="flex flex-col bg-stone-950 w-3/6">
+        <div className="sticky w-full flex-col bg-stone-950">
             <ButtomMessagePlace></ButtomMessagePlace>
         </div>
     );

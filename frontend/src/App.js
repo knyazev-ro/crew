@@ -7,7 +7,6 @@ import MessagePlace from "./Message/MessagePlace";
 import Memes from "./Additional/Memes";
 
 export default function App() {
-
   const messages = [
     {
       name: "Коля Оторва",
@@ -118,15 +117,12 @@ export default function App() {
       image: "",
     },
   ];
-  
 
   return (
-    <div className="">
       <div className="flex h-screen">
-      <SideBarMessages messages={messages} />
-      <MessagePlace></MessagePlace>
-      <Memes></Memes>
+        <SideBarMessages messages={messages} />
+        <MessagePlace></MessagePlace>
+        <Memes></Memes>
       </div>
-    </div>
   );
 }
