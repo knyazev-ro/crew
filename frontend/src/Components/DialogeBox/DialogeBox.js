@@ -3,9 +3,9 @@ import React from "react";
 
 export default function DialogBox({ user, collapsed }) {
   return (
-    <div className="flex items-center px-2 bg-gray-800">
+    <div className="flex items-center px-2">
       <div className="py-1">
-        <div className="rounded-full min-w-14 min-h-14 bg-gray-500">
+        <div className="rounded-full min-w-14 min-h-14 bg-stone-200">
           {user?.image}
         </div>
       </div>

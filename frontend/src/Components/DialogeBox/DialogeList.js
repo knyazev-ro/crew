@@ -11,13 +11,10 @@ export default function DialogeList({ messages, onHide }) {
   };
 
   return (
-    <div className="overflow-y-scroll overflow-x-hidden scrollbar-hide h-screen flex flex-col">
-      <button onClick={handleCloseBar}>BUTTON</button>
-      {/* {!collapsed && <HeaderSidebar onHide={handleCloseBar} />} */}
-      {collapsed && (
-        <button onClick={handleCloseBar} className="bg-red"></button>
-      )}
-      <div className="-mr-3">
+    <div className="h-screen flex flex-col bg-gray-800 gap-2">
+       <HeaderSidebar collapsed={collapsed} onHide={handleCloseBar} />
+
+      <div className="-mr-3 overflow-y-scroll overflow-x-hidden scrollbar-hide rounded-md">
       {messages.map((message) => (
         <DialogeBox user={message} collapsed={collapsed} />
       ))}
