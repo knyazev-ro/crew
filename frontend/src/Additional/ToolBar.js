@@ -3,7 +3,7 @@ import { faSmile, faStickyNote, faImages } from "@fortawesome/free-solid-svg-ico
 
 export default function Toolbar() {
   return (
-    <div className="flex justify-around bg-gray-100 first-line:shadow-md h-16">
+    <div className="flex justify-around bg-gray-100 first-line:shadow-md h-14">
       {/* Раздел Эмоджи */}
       <button className="hover:border-l-4 hover:border-l-rose-300  transition-all duration-150 ease-in-out px-1 text-lg py-2 w-full h-full text-indigo-600 hover:text-white hover:bg-indigo-600 focus:outline-none">
         <FontAwesomeIcon icon={faSmile} size="1x" title="Эмоджи" />

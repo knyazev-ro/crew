@@ -16,7 +16,7 @@ export default function HeaderSidebar({ onHide, collapsed }) {
         </div>
       ) : (
         <div className=" items-center gap-2 py-3 justify-center flex bg-gray-900">
-          <div className="flex bg-stone-200 w-3/4 rounded-full py-1 px-3 items-center">
+          <div className="flex bg-stone-200 w-3/4 h-7 rounded-full py-1 px-3 items-center">
             <input
               placeholder="Найти"
               className="placeholder-opacity-5 focus:placeholder-gray-300 text-sm bg-stone-200 w-full rounded-full px-2 py-1 focus:outline-none"
