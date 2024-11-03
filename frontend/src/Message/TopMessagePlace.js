@@ -30,10 +30,10 @@ export default function TopMessagePlace({ user }) {
       {/* Иконки звонка и информации */}
       <div className="flex items-center gap-4 text-white">
         <button className="hover:text-green-200">
-          <FontAwesomeIcon icon={faPhone} size="lg" title="Позвонить" />
+          <FontAwesomeIcon icon={faPhone} size="md" title="Позвонить" />
         </button>
         <button className="hover:text-blue-200">
-          <FontAwesomeIcon icon={faInfoCircle} size="lg" title="Информация" />
+          <FontAwesomeIcon icon={faInfoCircle} size="md" title="Информация" />
         </button>
       </div>
     </div>
