@@ -8,11 +8,11 @@ import {
 export default function ButtomMessagePlace() {
   return (
     <>
-      <div className="px-4 justify-around items-center absolute bottom-0 max-h-32 min-h-14 flex w-full bg-stone-100  transition-all border hover:border-b-red-600 hover:border-2">
+      <div className="px-4 justify-around items-center absolute bottom-0 max-h-32 min-h-14 flex w-full bg-stone-100  transition-all border hover:border-b-green-600 hover:border-2">
         <div className="">
           <FontAwesomeIcon
             icon={faPaperclip}
-            className="text-red-500  text-2xl"
+            className="text-green-500  text-2xl"
           />
         </div>
         {/* <div className="w-3/4 h-full flex items-center"> */}
@@ -23,12 +23,12 @@ export default function ButtomMessagePlace() {
         {/* </div> */}
         <div className="justify-around flex space-x-7">
           <div className="">
-            <FontAwesomeIcon icon={faSmile} className="text-red-500 text-2xl" />
+            <FontAwesomeIcon icon={faSmile} className="text-green-500 text-2xl" />
           </div>
           <div className="">
             <FontAwesomeIcon
               icon={faMicrophone}
-              className="text-red-500  text-2xl"
+              className="text-green-500  text-2xl"
             />
           </div>
         </div>

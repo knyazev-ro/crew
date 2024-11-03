@@ -1,7 +1,7 @@
 export default function TopMessagePlace() {
   return (
     <>
-      <div className="items-center justify-around flex absolute top-0 w-full h-16 bg-rose-600">
+      <div className="items-center justify-around flex absolute top-0 w-full h-16 bg-indigo-600">
         <div className="flex w-20 gap-1 truncate">
             <div 
             className="bg-gray-800 w-16"

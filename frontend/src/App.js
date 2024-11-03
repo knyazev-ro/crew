@@ -119,7 +119,7 @@ export default function App() {
   ];
 
   return (
-      <div className="flex h-screen">
+      <div className="flex gap-1 h-screen bg-indigo-600">
         <SideBarMessages messages={messages} />
         <MessagePlace></MessagePlace>
         <Memes></Memes>
