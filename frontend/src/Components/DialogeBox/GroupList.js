@@ -5,7 +5,7 @@ export default function GroupList({ groups }) {
   console.log(groups);
   return (
     <div>
-      <div className="flex h-screen bg-stone-950 flex-col gap-3 min-w-20 min-h-20 bg-grey-500 py-5 items-center">
+      <div className="flex h-screen bg-stone-950 flex-col gap-7 min-w-20 min-h-20 bg-grey-500 py-2 items-center">
         <button
           className="flex items-center bg-stone-900 w-14 h-14 rounded-full border hover:border-4 hover:scale-105 hover:transition-transform transform-cpu"
           onClick={() => {}}

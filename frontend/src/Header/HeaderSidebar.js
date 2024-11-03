@@ -1,18 +1,22 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+
 export default function HeaderSidebar({ onHide, collapsed }) {
   console.log(collapsed, 'header')
   return (
     <div className="">
       {collapsed ? (
-        <div className="items-center flex flex-col">
-          <button 
-          className="bg-stone-700 rounded-full w-14 h-7"
-          onClick={onHide}>
-            back
-          </button>
+        <div className="py-3 items-center flex flex-col">
+    <button 
+      className="bg-indigo-700 rounded-full w-12 h-7 flex items-center justify-center text-white"
+      onClick={onHide}
+    >
+      <FontAwesomeIcon icon={collapsed ? faChevronDown : faChevronUp} />
+    </button>
         </div>
       ) : (
         <div className=" items-center gap-2 py-3 justify-center flex bg-gray-900">
-          <div className="flex bg-stone-200 w-4/5 rounded-full py-1 px-2 items-center">
+          <div className="flex bg-stone-200 w-3/4 rounded-full py-1 px-3 items-center">
             <input
               placeholder="Найти"
               className="placeholder-opacity-5 focus:placeholder-gray-300 text-sm bg-stone-200 w-full rounded-full px-2 py-1 focus:outline-none"
@@ -48,12 +52,12 @@ export default function HeaderSidebar({ onHide, collapsed }) {
               </svg>
             </div>
           </div>
-          <button
-          className="bg-stone-400 w-9 h-9 rounded-md"
-          onClick={onHide}
-          >
-
-          </button>
+          <button 
+      className="bg-indigo-700 rounded-full w-12 h-7 flex items-center justify-center text-white"
+      onClick={onHide}
+    >
+      <FontAwesomeIcon icon={collapsed ? faChevronDown : faChevronUp} />
+    </button>
         </div>
       )
       }
