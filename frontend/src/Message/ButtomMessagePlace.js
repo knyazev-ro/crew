@@ -12,7 +12,7 @@ export default function ButtomMessagePlace() {
         <div className="">
           <FontAwesomeIcon
             icon={faPaperclip}
-            className="text-indigo-500  text-2xl"
+            className="text-pink-600  text-2xl"
           />
         </div>
         {/* <div className="w-3/4 h-full flex items-center"> */}
@@ -23,12 +23,12 @@ export default function ButtomMessagePlace() {
         {/* </div> */}
         <div className="justify-around flex space-x-7">
           <div className="">
-            <FontAwesomeIcon icon={faSmile} className="text-indigo-500 text-2xl" />
+            <FontAwesomeIcon icon={faSmile} className="text-pink-600 text-2xl" />
           </div>
           <div className="">
             <FontAwesomeIcon
               icon={faMicrophone}
-              className="text-indigo-500  text-2xl"
+              className="text-pink-600  text-2xl"
             />
           </div>
         </div>
