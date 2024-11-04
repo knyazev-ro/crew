@@ -89,7 +89,7 @@ export default function ({ messages }) {
 
   return (
       <div>
-        <div className="flex">
+        <div className="h-screen flex">
       <GroupList groups={groups} />
          <DialogeList messages={messages} />
         {/* <div className="flex">

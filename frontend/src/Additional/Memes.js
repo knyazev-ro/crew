@@ -3,9 +3,9 @@ import Toolbar from "./ToolBar";
 export default function Memes() {
   return (
     <div className="h-screen w-1/3 bg-pink-500 overflow-y-scroll overflow-x-hidden scrollbar-hide">
-      <div className=" h-full flex flex-col bg-stone-950 rounded-r-md items-center gap-2">
+      <div className="h-full flex flex-col bg-stone-950 rounded-r-md items-center gap-2">
         {/* menu */}
-        <div>
+        <div className="">
           <Toolbar></Toolbar>
         </div>
 

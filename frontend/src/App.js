@@ -119,8 +119,8 @@ export default function App() {
   ];
 
   return (
-    <div className="h-screen">
-      <div className="border-4 border-pink-600 flex gap-1 bg-gradient-to-t to-pink-600  from-sky-600">
+    <div className="h-screen overflow-y-scroll scrollbar-hide">
+      <div className=" border-pink-600 flex gap-1 bg-gradient-to-t to-pink-600  from-sky-600">
         <SideBarMessages messages={messages} />
         <MessagePlace></MessagePlace>
         <Memes></Memes>

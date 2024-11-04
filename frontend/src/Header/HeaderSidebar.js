@@ -8,7 +8,7 @@ export default function HeaderSidebar({ onHide, collapsed }) {
       {collapsed ? (
         <div className="py-3 items-center flex flex-col">
     <button 
-      className="bg-pink-700 rounded-full w-12 h-7 flex items-center justify-center text-white"
+      className="border border-white rounded-full w-12 h-7 flex items-center justify-center hover:text-pink-600"
       onClick={onHide}
     >
       <FontAwesomeIcon icon={collapsed ? faChevronDown : faChevronUp} />
@@ -53,7 +53,7 @@ export default function HeaderSidebar({ onHide, collapsed }) {
             </div>
           </div>
           <button 
-      className="bg-pink-700 rounded-full w-12 h-7 flex items-center justify-center text-white"
+      className="rounded-full w-12 h-7 flex border border-white items-center justify-center hover:text-pink-600"
       onClick={onHide}
     >
       <FontAwesomeIcon icon={collapsed ? faChevronDown : faChevronUp} />
