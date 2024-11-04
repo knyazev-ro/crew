@@ -119,8 +119,8 @@ export default function App() {
   ];
 
   return (
-    <div className="border-4 border-pink-500">
-      <div className="flex gap-1 h-screen bg-gradient-to-t from-pink-500  to-indigo-600">
+    <div className="h-screen">
+      <div className="border-4 border-pink-500 flex gap-1 bg-gradient-to-t from-pink-500  to-indigo-600">
         <SideBarMessages messages={messages} />
         <MessagePlace></MessagePlace>
         <Memes></Memes>
