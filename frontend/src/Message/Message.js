@@ -8,7 +8,7 @@ export default function Message({ text, isUser }) {
         className={classNames(
           "max-w-xs px-4 py-2 rounded-lg shadow-md",
           {
-            "bg-indigo-600 text-white": isUser,     // Красный фон для сообщений пользователя
+            "bg-pink-600 text-white": isUser,     // Красный фон для сообщений пользователя
             "bg-gray-200 text-gray-800": !isUser // Светло-серый фон для сообщений собеседника
           }
         )}

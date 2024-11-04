@@ -3,9 +3,9 @@ import React from "react";
 
 export default function DialogBox({ user, collapsed }) {
   return (
-    <div className="flex items-center px-2 hover:bg-gray-900">
+    <div className="transition-all duration-300 ease-in-out flex items-center px-2 hover:bg-gray-900">
       <div className="py-1">
-        <div className="bg-gradient-to-b from-pink-500  to-indigo-600 rounded-full min-w-14 min-h-14 bg-stone-200 border hover:border-indigo-600 transition-all duration-150 hover:border-4">
+        <div className="bg-gradient-to-b to-pink-500  from-sky-600 rounded-full min-w-14 min-h-14 bg-stone-200 border hover:border-sky-600 transition-all duration-150 hover:border-4">
           {user?.image}
         </div>
       </div>

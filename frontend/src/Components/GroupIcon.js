@@ -16,14 +16,14 @@ export default function GroupIcon({ icon, action, collapsed }) {
           {icon}
         </button>
 
-        <div className={classNames("transition-all duration-300 ease-in-out flex items-center rounded-lg h-12  bg-slate-900",
+        <div className={classNames("transition-all duration-300 ease-in-out flex items-center rounded-lg h-12",
           {
             "opacity-0 max-w-0":collapsed,
             "opacity-100 max-w-28 px-2": !collapsed,
           }
         )}>
           <div className="text-sm font-semibold truncate text-gray-200">
-            Name Name
+            Group name
           </div>
         </div>
       </div>

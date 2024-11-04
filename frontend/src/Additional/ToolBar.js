@@ -3,21 +3,24 @@ import { faSmile, faStickyNote, faImages } from "@fortawesome/free-solid-svg-ico
 
 export default function Toolbar() {
   return (
-    <div className="flex justify-around bg-gray-100 first-line:shadow-md h-14 rounded-tr-md">
+    <div className="flex flex-col">
+    <div className="flex gap-4 first-line:shadow-md h-14 rounded-tr-md items-center">
       {/* Раздел Эмоджи */}
-      <button className="hover:border-l-4 hover:border-l-pink-300  transition-all duration-150 ease-in-out px-1 text-lg py-2 w-full h-full text-indigo-600 hover:text-white hover:bg-indigo-600 focus:outline-none">
-        <FontAwesomeIcon icon={faSmile} size="1x" title="Эмоджи" />
+      <button className="rounded-full border w-12 h-10 transition-all duration-150 ease-in-out text-lg text-pink-600 hover:text-white focus:outline-none">
+        <FontAwesomeIcon icon={faSmile} size="sm" title="Эмоджи" />
       </button>
       
       {/* Раздел Стикеры */}
-      <button className="hover:border-l-4 hover:border-r-4 hover:border-r-rose-300 hover:border-l-rose-300 transition-all duration-300 ease-in-out px-1 py-2 text-lg w-full h-full text-indigo-600 hover:text-white hover:bg-indigo-600 focus:outline-none">
-        <FontAwesomeIcon icon={faStickyNote} size="1x" title="Стикеры" />
+      <button className="rounded-full border w-12 h-10 transition-all duration-150 ease-in-out text-lg text-pink-600 hover:text-white focus:outline-none">
+        <FontAwesomeIcon icon={faStickyNote} size="sm" title="Стикеры" />
       </button>
       
       {/* Раздел GIF */}
-      <button className="rounded-tr-md hover:border-r-4 hover:border-r-pink-300 transition-all duration-150 ease-in-out px-1 py-2 text-lg w-full h-full text-indigo-600 hover:text-white hover:bg-indigo-600 focus:outline-none">
-        <FontAwesomeIcon icon={faImages} size="1x" title="GIF" />
+      <button className="rounded-full border w-12 h-10 transition-all duration-150 ease-in-out text-lg text-pink-600 hover:text-white focus:outline-none">
+        <FontAwesomeIcon icon={faImages} size="sm" title="GIF" />
       </button>
+    </div>
+              <div className="border border-pink-600 rounded-md w-full"></div>
     </div>
   );
 }
