@@ -9,21 +9,21 @@ export default function Toolbar({setCurrentType}) {
       <button 
       onClick={() => setCurrentType(1)}
       className="rounded-full border w-8 h-8 transition-all duration-150 ease-in-out text-lg  hover:text-pink-600 focus:outline-none hover:w-12">
-        <FontAwesomeIcon icon={faSmile} size="sm" title="Эмоджи" />
+        <FontAwesomeIcon icon={faSmile} title="Эмоджи" />
       </button>
       
  
       <button 
       onClick={() => setCurrentType(2)}
       className="rounded-full border w-8 h-8 transition-all duration-150 ease-in-out text-lg  hover:text-pink-600 focus:outline-none hover:w-12">
-        <FontAwesomeIcon icon={faStickyNote} size="sm" title="Стикеры" />
+        <FontAwesomeIcon icon={faStickyNote} title="Стикеры" />
       </button>
       
 
       <button 
       onClick={() => setCurrentType(3)}
       className="rounded-full border w-8 h-8 transition-all duration-150 ease-in-out text-lg  hover:text-pink-600 focus:outline-none hover:w-12">
-        <FontAwesomeIcon icon={faImages} size="sm" title="GIF" />
+        <FontAwesomeIcon icon={faImages} title="GIF" />
       </button>
     </div>
               <div className="border border-pink-600 rounded-md w-full"></div>

@@ -22,11 +22,11 @@ export default function Memes() {
     const renderContent = () => {
         switch (type) {
             case 1:
-                return emojis.map((emoji, index) => <div key={index} className="m-1 p-2 bg-gray-900 rounded-full shadow-md">{emoji}</div>);
+                return emojis.map((emoji, index) => <div key={index} className="p-2 bg-gray-900 rounded-full shadow-md">{emoji}</div>);
             case 2:
-                return stickers.map((sticker, index) => <div key={index} className="m-1 p-2 bg-gray-900 rounded-lg shadow-md">{sticker}</div>);
+                return stickers.map((sticker, index) => <div key={index} className="p-2 bg-gray-900 rounded-lg shadow-md">{sticker}</div>);
             case 3:
-                return gifs.map((gif, index) => <div key={index} className="m-1 p-2 bg-gray-900 rounded-lg shadow-md text-white">{gif}</div>);
+                return gifs.map((gif, index) => <div key={index} className="p-2 bg-gray-900 rounded-lg shadow-md text-white">{gif}</div>);
             default:
                 return null;
         }

@@ -3,7 +3,7 @@ import { faPhone, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default function TopMessagePlace({ user }) {
   return (
-    <div className="flex items-center justify-between absolute top-0 w-full h-14 bg-stone-950 px-4 shadow-md rounded-t-2xl">
+    <div className=" flex items-center justify-between absolute top-0 w-full h-14 bg-stone-950 px-4 shadow-md rounded-2xl">
       {/* Иконка */}
       <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
@@ -29,11 +29,11 @@ export default function TopMessagePlace({ user }) {
 
       {/* Иконки звонка и информации */}
       <div className="flex items-center gap-4 text-white">
-        <button className="hover:text-green-200">
-          <FontAwesomeIcon icon={faPhone} size="md" title="Позвонить" />
+        <button className="hover:text-pink-600">
+          <FontAwesomeIcon icon={faPhone} title="Позвонить" />
         </button>
-        <button className="hover:text-blue-200">
-          <FontAwesomeIcon icon={faInfoCircle} size="md" title="Информация" />
+        <button className="hover:text-pink-600">
+          <FontAwesomeIcon icon={faInfoCircle} title="Информация" />
         </button>
       </div>
     </div>

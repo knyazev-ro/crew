@@ -11,7 +11,7 @@ export default function GroupList({ groups }) {
 
   console.log(groups);
   return (
-    <div className="bg-pink-500">
+    <div className="">
       <div className=" py-3 gap-3 bg-stone-950 flex flex-col items-center h-screen rounded-tl-2xl">
         <div className="transition-all flex flex-row gap-5 items-center">
           <button
