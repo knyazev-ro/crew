@@ -14,7 +14,7 @@ export default function Memes() {
     const currentType = memeType.find((item) => item.value === type);
     setType(currentType.value);
   };
-  
+
   const emojis = [
     "😊",
     "😂",
@@ -332,14 +332,14 @@ export default function Memes() {
   };
 
   return (
-    <div className="w-1/3 max-w-md mx-auto bg-rich_black shadow-lg rounded-t-2xl">
-      <div className="h-full flex flex-col bg-rich_black items-center gap-4">
+    <div className="h-screen w-1/3 max-w-md mx-auto bg-rich_black shadow-lg rounded-t-2xl">
+      <div className="h-screen flex flex-col bg-rich_black items-center gap-4">
         {/* Toolbar */}
         <Toolbar setCurrentType={handleChangeType} />
 
         {/* Content */}
-        <div className="w-11/12 h-full rounded-2xl bg-rich_black-100">
-          <div className="h-screen w-full p-4 flex flex-wrap gap-2 justify-center overflow-y-scroll scrollbar-hide">
+        <div className="h-screen w-11/12 rounded-2xl bg-rich_black-100 overflow-y-scroll scrollbar-hide">
+          <div className="h-screen w-full p-4 flex flex-wrap gap-2 justify-center">
             {renderContent()}
           </div>
         </div>
