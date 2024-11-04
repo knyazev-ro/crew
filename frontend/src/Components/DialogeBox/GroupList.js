@@ -12,7 +12,7 @@ export default function GroupList({ groups }) {
   console.log(groups);
   return (
     <div className="bg-pink-500">
-      <div className=" py-3 gap-3 bg-stone-950 flex flex-col items-center h-screen rounded-l-md">
+      <div className=" py-3 gap-3 bg-stone-950 flex flex-col items-center h-screen rounded-tl-2xl">
         <div className="transition-all flex flex-row gap-5 items-center">
           <button
             className={classNames(
@@ -37,9 +37,7 @@ export default function GroupList({ groups }) {
                 "opacity-100 w-4 h-7": !collapsed,
               }
             )}
-          >
-            ffff
-          </button>
+          />
         </div>
         <div className="flex h-screen bg-stone-950 flex-col gap-6 min-w-20 min-h-20 bg-grey-500 py-3 items-center">
           <div className="rounded-xl overflow-y-scroll overflow-x-hidden scrollbar-hide">

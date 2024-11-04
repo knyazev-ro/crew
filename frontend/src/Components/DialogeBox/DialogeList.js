@@ -11,7 +11,7 @@ export default function DialogeList({ messages, onHide }) {
   };
 
   return (
-    <div className="h-screen flex flex-col bg-stone-950 gap-2">
+    <div className="h-screen flex flex-col bg-stone-950 gap-2 rounded-tr-2xl">
        <HeaderSidebar collapsed={collapsed} onHide={handleCloseBar} />
 
       <div className="-mr-3 overflow-y-scroll overflow-x-hidden scrollbar-hide rounded-md">
