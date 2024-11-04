@@ -23,15 +23,13 @@ export default function GroupList({ groups }) {
                 "opacity-100 w-4 h-7": !collapsed,
               }
             )}
-          >
-            ffff
-          </button>
+          />
 
           <button
             className="transition-all w-4 h-7 rounded-full ease-in-out border hover:border-4 hover:rounded-full"
             onClick={handleCollapsed}
-          ></button>
-          
+          />
+
           <button
             className={classNames(
               "transition-all duration-300 ease-in-out rounded-full  border border-white",
