@@ -6,7 +6,7 @@ module.exports = {
       colors:{
         rich_black: {
           DEFAULT: "#0a0908",
-          100: "#11151c"
+          100: "#0c1010"
         },
         purple_sky: {
           DEFAULT: "#0A9396",
@@ -16,8 +16,8 @@ module.exports = {
           500: "#0B60B0",
         },
         bg_crew: {
-          DEFAULT: "#7dcfb6",
-          100: "#4895ef",
+          DEFAULT: "#0d1b2a",
+          100: "#1b263b",
         },
         tiffany_blue: {
           DEFAULT: "#94d2bd",
