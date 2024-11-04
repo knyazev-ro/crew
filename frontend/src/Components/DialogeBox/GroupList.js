@@ -1,5 +1,4 @@
 import GroupIcon from "../GroupIcon";
-import { GiWarlockHood } from "react-icons/gi";
 import { useState } from "react";
 import classNames from "classnames";
 
