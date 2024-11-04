@@ -307,13 +307,13 @@ export default function Memes() {
     switch (type) {
       case 1:
         return emojis.map((emoji, index) => (
-          <div key={index} className="p-2 bg-gray-900 rounded-full shadow-md">
+          <div key={index} className="p-2 bg-gray-900 rounded-full w-9 h-9 shadow-md">
             {emoji}
           </div>
         ));
       case 2:
         return stickers.map((sticker, index) => (
-          <div key={index} className="p-2 bg-gray-900 rounded-lg shadow-md">
+          <div key={index} className="p-2 bg-gray-900 h-9 rounded-lg shadow-md">
             {sticker}
           </div>
         ));
@@ -332,7 +332,7 @@ export default function Memes() {
   };
 
   return (
-    <div className="h-screen w-1/3 max-w-md mx-auto bg-rich_black shadow-lg rounded-t-2xl">
+    <div className="w-1/3 max-w-md mx-auto bg-rich_black shadow-lg rounded-t-2xl">
       <div className="h-screen flex flex-col bg-rich_black items-center gap-4">
         {/* Toolbar */}
         <Toolbar setCurrentType={handleChangeType} />

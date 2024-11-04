@@ -8,12 +8,23 @@ export default function MessagePlace() {
       <TopMessagePlace></TopMessagePlace>
 
     <div
-    className="translate-y-14"
+    className=""
     >
-      <div className="p-4 space-y-2 ">
+      <div className="h-screen p-4 space-y-2 overflow-y-scroll scrollbar-hide">
         <Message text="Прикинь, новый Джокер параша полная" isUser={false} />
         <Message text="Че реально?" isUser={true} />
         <Message text="Ага" isUser={false} />
+        <Message text="Прикинь, новый Джокер параша полная" isUser={false} />
+        <Message text="Че реально?" isUser={true} />
+        <Message text="Ага" isUser={false} />
+        <Message text="Прикинь, новый Джокер параша полная" isUser={false} />
+        <Message text="Че реально?" isUser={true} />
+        <Message text="Ага" isUser={false} />
+        <Message text="Прикинь, новый Джокер параша полная" isUser={false} />
+        <Message text="Че реально?" isUser={true} />
+        <Message text="Ага" isUser={false} />
+        <Message text="Прикинь, новый Джокер параша полная" isUser={false} />
+        <Message text="Че реально?" isUser={true} />
       </div>
       </div>
       <ButtomMessagePlace></ButtomMessagePlace>
