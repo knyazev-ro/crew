@@ -120,7 +120,7 @@ export default function App() {
 
   return (
     <div className="h-screen overflow-y-hidden">
-      <div className="px-1 py-1 flex gap-1 bg-gradient-to-t to-pink-600  from-sky-600">
+      <div className="px-1 py-1 flex gap-1 bg-gradient-to-t to-bg_crew  from-bg_crew-100">
         <SideBarMessages messages={messages} />
         <MessagePlace></MessagePlace>
         <Memes></Memes>

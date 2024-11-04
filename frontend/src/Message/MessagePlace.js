@@ -4,7 +4,7 @@ import Message from "./Message";
 
 export default function MessagePlace() {
   return (
-    <div className="min-w-96 sticky w-screen flex-col bg-stone-950 overflow-y-scroll overflow-x-hidden scrollbar-hide rounded-t-2xl">
+    <div className="min-w-96 sticky w-screen flex-col bg-rich_black overflow-y-scroll overflow-x-hidden scrollbar-hide rounded-t-2xl">
       <TopMessagePlace></TopMessagePlace>
 
     <div

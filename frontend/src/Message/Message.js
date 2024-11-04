@@ -8,8 +8,8 @@ export default function Message({ text, isUser }) {
         className={classNames(
           "max-w-xs px-4 py-2 rounded-lg shadow-md",
           {
-            "border border-white text-white": isUser,     // Красный фон для сообщений пользователя
-            "bg-gray-200 text-gray-800": !isUser // Светло-серый фон для сообщений собеседника
+            "border border-purple_sky-100 text-white": isUser,     // Красный фон для сообщений пользователя
+            "bg-purple_sky-400 text-gray-800": !isUser // Светло-серый фон для сообщений собеседника
           }
         )}
         style={{ wordBreak: "break-word" }}

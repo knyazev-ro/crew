@@ -5,7 +5,7 @@ export default function DialogBox({ user, collapsed }) {
   return (
     <div className="transition-all duration-300 ease-in-out flex items-center px-2 hover:bg-sky-950">
       <div className="py-1">
-        <div className="bg-gradient-to-b to-pink-500  from-sky-600 rounded-full min-w-14 min-h-14 bg-stone-200 border hover:border-sky-600 transition-all duration-150 hover:border-4">
+        <div className="bg-gradient-to-b to-purple_sky  from-purple_sky-100 rounded-full min-w-14 min-h-14 bg-stone-200 border hover:border-sky-600 transition-all duration-150 hover:border-4">
           {user?.image}
         </div>
       </div>
@@ -14,7 +14,7 @@ export default function DialogBox({ user, collapsed }) {
           "max-w-64": !collapsed,
         })}>
         <div
-          className={classNames("text-nowrap px-2 font-medium text-sm text-white transition-opacity duration-300 ease-in-out", {
+          className={classNames("text-nowrap px-2 font-medium text-sm text-purple_sky-400 transition-opacity duration-300 ease-in-out", {
             "opacity-0": collapsed,
             "opacity-100": !collapsed,
             "w-0": collapsed,

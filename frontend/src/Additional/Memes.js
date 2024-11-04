@@ -33,14 +33,16 @@ export default function Memes() {
     };
 
     return (
-        <div className="w-1/3 max-w-md mx-auto bg-stone-950 shadow-lg rounded-t-2xl overflow-hidden">
-            <div className="h-full flex flex-col bg-stone-950 items-center">
+        <div className="w-1/3 max-w-md mx-auto bg-rich_black shadow-lg rounded-t-2xl overflow-hidden">
+            <div className="h-full flex flex-col bg-rich_black items-center gap-4">
                 {/* Toolbar */}
                 <Toolbar setCurrentType={handleChangeType} />
 
                 {/* Content */}
-                <div className="w-full p-4 flex flex-wrap gap-2 justify-center bg-stone-950">
+                <div className="w-11/12 h-full rounded-2xl bg-rich_black-100">
+                <div className="w-full p-4 flex flex-wrap gap-2 justify-center">
                     {renderContent()}
+                </div>
                 </div>
             </div>
         </div>
