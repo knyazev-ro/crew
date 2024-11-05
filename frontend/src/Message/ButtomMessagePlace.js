@@ -8,7 +8,7 @@ import {
 export default function ButtomMessagePlace() {
   return (
     <div className="flex justify-center">
-      <div className="rounded-2xl px-4 justify-around items-center max-h-32 min-h-12 flex w-11/12 bg-purple_sky-400  transition-all border hover:border-pink-300 hover:border-4">
+      <div className="focus-within:w-5/6 rounded-2xl px-4 justify-around items-center max-h-32 min-h-12 flex w-6/12 bg-purple_sky-400  transition-all border hover:border-pink-300 hover:border-4">
         <div className="">
           <FontAwesomeIcon
             icon={faPaperclip}

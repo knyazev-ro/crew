@@ -3,7 +3,7 @@ import { faPhone, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default function TopMessagePlace({ user }) {
   return (
-    <div className="sticky z-50 flex items-center justify-between top-0 w-full h-14 bg-rich_black px-4 shadow-md rounded-2xl">
+    <div className="sticky z-50 flex items-center justify-between top-0 w-full h-14 px-4 shadow-md rounded-2xl bg-rich_black bg-opacity-40 backdrop-blur-sm">
       {/* Иконка */}
       <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">

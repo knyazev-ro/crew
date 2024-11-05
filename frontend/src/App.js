@@ -221,7 +221,7 @@ export default function App() {
 
 
   return (
-    <div className=" overflow-y-hidden scrollbar-hide">
+    <div className="h-screen overflow-y-hidden scrollbar-hide">
       <div className="px-1 py-1 flex gap-1 bg-gradient-to-t to-bg_crew  from-bg_crew-100">
         <SideBarMessages messages={messages} groups={groups} />
         <MessagePlace></MessagePlace>
