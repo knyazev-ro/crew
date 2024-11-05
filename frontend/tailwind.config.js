@@ -6,7 +6,7 @@ module.exports = {
       colors:{
         rich_black: {
           DEFAULT: "#0a0908",
-          100: "#0c1010"
+          100: "#11c1010"
         },
         purple_sky: {
           DEFAULT: "#0A9396",
