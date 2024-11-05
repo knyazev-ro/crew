@@ -332,7 +332,7 @@ export default function Memes() {
   };
 
   return (
-    <div className="w-1/3 max-w-md mx-auto bg-rich_black shadow-lg rounded-t-2xl">
+    <div className="w-1/3 max-w-md mx-auto bg-rich_black shadow-lg">
       <div className="h-screen flex flex-col bg-rich_black items-center gap-4">
         {/* Toolbar */}
         <Toolbar setCurrentType={handleChangeType} />
