@@ -2,7 +2,7 @@ import classNames from "classnames";
 
 export default function GroupIcon({ icon, action, collapsed }) {
   return (
-    <div className="">
+    <div className="py-1">
       <div className={classNames("flex transition-all duration-300 ease-in-out",
         {
           "gap-2 px-2":!collapsed,

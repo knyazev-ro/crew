@@ -6,8 +6,8 @@ import { faCheck, faCheckDouble } from "@fortawesome/free-solid-svg-icons";
 export default function DialogBox({ user, collapsed }) {
   return (
     <div className="transition-all duration-300 ease-in-out flex items-center px-2 hover:bg-sky-950">
-      <div className="py-1">
-        <div className="bg-gradient-to-b to-purple_sky  from-purple_sky-100 rounded-full min-w-14 min-h-14 bg-stone-200 border hover:border-sky-600 transition-all duration-150 hover:border-4">
+      <div className="py-2">
+        <div className="bg-gradient-to-b to-purple_sky  from-purple_sky-100 rounded-full min-w-12 min-h-12 bg-stone-200 border hover:border-sky-600 transition-all duration-150 hover:border-4">
           {user?.image}
         </div>
       </div>
