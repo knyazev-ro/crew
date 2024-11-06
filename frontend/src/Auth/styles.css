@@ -13,3 +13,10 @@
     background-size: cover;
     background-position: center;
 }
+
+.image-boat-icon{
+    background-image: url('./images/crew-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
