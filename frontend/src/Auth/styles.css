@@ -1,0 +1,15 @@
+
+
+.image-login{
+    background-image: url('./images/pattern-32.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-boat{
+    background-image: url('./images/boat.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
