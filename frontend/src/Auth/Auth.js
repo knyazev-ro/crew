@@ -6,15 +6,10 @@ export default function Auth(){
 
     return(
         <div className="bg-bg_crew-100">
-        <div className='border-bg_crew-100 border-4 bg-rich_black h-screen rounded-2xl image-login scrollbar-hide overflow-y-scroll'>
-        <div className="flex h-full hover:backdrop-blur-sm">
-            <div className="flex w-[50vw] items-center justify-center rounded-2xl">
+        <div className='h-screen border-bg_crew-100 border-4 bg-rich_black rounded-2xl image-login scrollbar-hide overflow-y-scroll'>
+        <div className="flex h-full hover:backdrop-blur-sm lg:gap-40 gap-20 flex-wrap items-center lg:justify-end justify-center">
                 <LoginCard />
-            </div>
-
-            <div className=" w-[50vw] flex items-center justify-center rounded-2xl">
                <DynamicImageCard />
-            </div>
         </div>
         </div>
         </div>

@@ -2,7 +2,7 @@
 
 .image-login{
     background-image: url('./images/pattern-32.svg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
 }
