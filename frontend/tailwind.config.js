@@ -7,7 +7,8 @@ module.exports = {
         rich_black: {
           DEFAULT: "#0a0908",
           100: "#11c1010",
-          200: "#1A1A19"
+          200: "#1A1A19",
+          300: "#2F3645"
         },
         purple_sky: {
           DEFAULT: "#0A9396",

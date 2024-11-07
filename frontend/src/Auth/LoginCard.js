@@ -15,7 +15,7 @@ export default function LoginCard() {
             <span className="-mt-4 text-3xl font-bold">crew </span>
           </div>
         </div>
-        
+
         <input
           type="text"
           placeholder="enter a nickname"
@@ -74,7 +74,7 @@ export default function LoginCard() {
         </button>
         <div className="px-1 py-4 text-purple_sky-400">
           doesn't have an account?{" "}
-          <button className="font-semibold" onClick={() => {}}>
+          <button className="border-purple_sky-100 border-2 rounded-2xl px-2 py-1 font-semibold" onClick={() => {}}>
             register
           </button>
         </div>

@@ -5,7 +5,7 @@ import ChatMessages from "./ChatMessages";
 
 export default function MessagePlace() {
   return (
-    <div className="min-w-96 w-full  flex-col bg-rich_black-100 rounded-t-2xl justify-between message-background">
+    <div className="min-w-96 w-full  flex-col bg-rich_black-300 rounded-t-2xl justify-between message-background">
       <div className="h-16 z-50">
         <TopMessagePlace />
       </div>
