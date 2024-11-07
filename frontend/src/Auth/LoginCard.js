@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLock, faUser } from "@fortawesome/free-solid-svg-icons";
 import "./styles.css";
 import { useState } from "react";
 import classNames from "classnames";
@@ -17,6 +15,18 @@ export default function LoginCard() {
             <span className="-mt-4 text-3xl font-bold">crew </span>
           </div>
         </div>
+        
+        <input
+          type="text"
+          placeholder="enter a nickname"
+          className={classNames(
+            "transition-all duration-300 ease-in-out text-center text-rich_black rounded-xl bg-purple_sky-400",
+            {
+              "opacity-0 w-0 h-0": !registerCard,
+              "opacity-100 w-5/6 h-14": registerCard,
+            }
+          )}
+        />
         <input
           type="text"
           placeholder="enter a number or email"
@@ -28,29 +38,41 @@ export default function LoginCard() {
           className="text-center text-rich_black rounded-xl w-5/6 h-14 bg-purple_sky-400"
         />
 
-<input
+        <input
           type="password"
           placeholder="confirm a pass@#$%!&*word"
-          className={classNames("transition-all duration-300 ease-in-out text-center text-rich_black rounded-xl bg-purple_sky-400",
+          className={classNames(
+            "transition-all duration-300 ease-in-out text-center text-rich_black rounded-xl bg-purple_sky-400",
             {
-                "opacity-0 w-0 h-0":!registerCard,
-                "opacity-100 w-5/6 h-14":registerCard
+              "opacity-0 w-0 h-0": !registerCard,
+              "opacity-100 w-5/6 h-14": registerCard,
             }
           )}
         />
 
+        <input
+          type="password"
+          placeholder="confirm a pass@#$%!&*word"
+          className={classNames(
+            "transition-all duration-300 ease-in-out text-center text-rich_black rounded-xl bg-purple_sky-400",
+            {
+              "opacity-0 w-0 h-0": !registerCard,
+              "opacity-100 w-5/6 h-14": registerCard,
+            }
+          )}
+        />
       </div>
 
       <div className="gap-2 flex flex-col w-5/6 h-24 items-center justify-center">
         <button
           onClick={() => {
-            setRegisterCard(prev => !prev)
+            setRegisterCard((prev) => !prev);
           }}
-          className="transition-all duration-300 ease-in-out border-2 border-purple_sky-100 bg-rich_black w-4/6 hover:w-5/6 h-14 rounded-2xl hover:text-purple_sky-400"
+          className="transition-all duration-300 ease-in-out border-2 border-purple_sky-100 bg-rich_black w-48 hover:w-5/6 h-24 rounded-2xl hover:text-purple_sky-400"
         >
           entry
         </button>
-        <div className="text-purple_sky-400">
+        <div className="px-1 py-4 text-purple_sky-400">
           doesn't have an account?{" "}
           <button className="font-semibold" onClick={() => {}}>
             register
