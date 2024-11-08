@@ -1,6 +1,6 @@
 export default function DynamicImageCard() {
   return (
-    <div className=" justify-end bg-purple_sky-100 lg:w-1/2 h-5/6 image-login flex flex-col  border-2 border-r-purple_sky-100 border-b-purple_sky-100">
+    <div className="lg:-translate-x-10 justify-end bg-purple_sky-100 lg:w-1/2 h-5/6 image-login flex flex-col  border-2 border-r-purple_sky-100 border-b-purple_sky-100">
       <div className="px-1 py-1 w-2/12 h-28 bg-pink-600 transition-all duration-300 ease-in-out hover:w-3/12 flex border-2 border-purple_sky-100">
         <div className="flex items-center">
 
